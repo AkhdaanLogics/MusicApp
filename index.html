@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Music App</title>
+        <link href="https://fonts.cdnfonts.com/css/poppins" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    </head>
+    <body>
+        <header>
+            <div class="menu_side">
+                <h1>Playlist</h1>
+                <div class="playlist">
+                    <h4 class="active"><span></span><i class="bi bi-music-note"></i> Playlist</h4>
+                    <h4><span></span><i class="bi bi-music-note"></i> Last Listening</h4>
+                    <h4><span></span><i class="bi bi-music-note"></i> Recommended</h4>
+                </div>
+                <div class="menu_song">
+                    <li class="songItem">
+                        <span>1</span>
+                        <img src="images/kdot.jpg" alt="GNX">
+                        <h5>Luther <div class="subtitle">Kendrick Lamar ft. SZA</div></h5>
+                        <i class="bi playListPlay bi-play-fill" id="1"></i>
+                    </li>
+                    <li class="songItem">
+                        <span>2</span>
+                        <img src="images/kdot.jpg" alt="GNX">
+                        <h5>Heart pt.6 <div class="subtitle">Kendrick Lamar</div></h5>
+                        <i class="bi playListPlay bi-play-fill" id="2"></i>
+                    </li>
+                    <li class="songItem">
+                        <span>3</span>
+                        <img src="images/kdot.jpg" alt="GNX">
+                        <h5>Squabble Up <div class="subtitle">Kendrick Lamar</div></h5>
+                            <i class="bi playListPlay bi-play-fill" id="3"></i>
+                    </li>
+                    <li class="songItem">
+                        <span>4</span>
+                        <img src="images/hurryuptomorrow.jpg" alt="hurryuptomorrow">
+                        <h5>Timeless <div class="subtitle">The Weeknd ft. Playboi Carti</div></h5>
+                        <i class="bi playListPlay bi-play-fill" id="4"></i>
+                    </li>
+                    <li class="songItem">
+                        <span>5</span>
+                        <img src="images/kdot.jpg" alt="GNX">
+                        <h5>Reincarnated <div class="subtitle">Kendrick Lamar</div></h5>
+                        <i class="bi playListPlay bi-play-fill" id="5"></i>
+                    </li>
+                    <li class="songItem">
+                        <span>6</span>
+                        <img src="images/Legends Never Die.jfif" alt="Legends Never Die">
+                        <h5>Stay High <div class="subtitle">Juice WRLD</div></h5>
+                        <i class="bi playListPlay bi-play-fill" id="6"></i>
+                    </li>
+                    <li class="songItem">
+                        <span>7</span>
+                        <img src="images/Legends Never Die.jfif" alt="Legends Never Die">
+                        <h5>Conversations <div class="subtitle">Juice WRLD</div></h5>
+                        <i class="bi playListPlay bi-play-fill" id="7"></i>
+                    </li>
+                </div>
+            </div>
+            <div class="song_side">
+                <nav>
+                   <ul>
+                    <li>Discorver <span></span></li>
+                    <li>My Library</li>
+                    <li>Radio</li>
+                   </ul> 
+                    <div class="search">
+                        <i class="bi bi-search"></i>
+                        <input type="text" placeholder="Search Music Name or Artist">
+                    </div>
+                    <div class="user">
+                        <img src="images/DJV MAR 1011-04.jpg" alt="You" title="Akhdaan The Great">
+                    </div>
+                </nav>
+                <div class="content">
+                    <h1>The Weeknd - Timeless</h1>
+                    <p>
+                        Uh, yeah, I'm spinnin' in Paris (Uh) Dress for these hoes, they finna flock Just poured a four in a soda, it pop <br>
+                        Them drugs finna hit, I'm feelin' ill I'm wrestlin' all of my demons, I feel like The Rock
+                    </p>
+                    <div class="buttons">
+                        <button>PLAY</button>
+                        <button>FOLLOW</button>
+                    </div>
+                </div>
+                <div class="popular_song">
+                    <div class="h4">
+                        <h4>Popular Song</h4>
+                        <div class="btn_s">
+                            <i id="left_scroll" class="bi bi-arrow-left-short"></i>
+                            <i id="right_scroll" class="bi bi-arrow-right-short"></i>
+                        </div>
+                    </div>
+                    <div class="pop_song">
+                        
+                        <li class="songItem">
+                            <div class="img_play">
+                                <img src="images/hurryuptomorrow.jpg" alt="hurryuptomorrow">
+                                <i class="bi playListPlay bi-play-fill" id="8"></i>
+                            </div>
+                            <h5>Cry For Me<br><div class="subtitle">The Weeknd</div></h5>
+                        </li>
+                        <li class="songItem">
+                            <div class="img_play">
+                                <img src="images/notlikeus.jfif" alt="notlikeus">
+                                <i class="bi playListPlay bi-play-fill" id="9"></i>
+                            </div>
+                            <h5>Not Like Us<br><div class="subtitle">Kendrick Lamar</div></h5>
+                        </li>
+                        <li class="songItem">
+                            <div class="img_play">
+                                <img src="images/starboy.jfif" alt="starboy">
+                                <i class="bi playListPlay bi-play-fill" id="10"></i>
+                            </div>
+                            <h5>Starboy<br><div class="subtitle">The Weeknd</div></h5>
+                        </li>
+                        <li class="songItem">
+                            <div class="img_play">
+                                <img src="images/skins.jpg" alt="whoa">
+                                <i class="bi playListPlay bi-play-fill" id="11"></i>
+                            </div>
+                            <h5>Whoa<br><div class="subtitle">XXXTENTACION</div></h5>
+                        </li>
+                        <li class="songItem">
+                            <div class="img_play">
+                                <img src="images/kdot.jpg" alt="gloria">
+                                <i class="bi playListPlay bi-play-fill" id="12"></i>
+                            </div>
+                            <h5>Gloria<br><div class="subtitle">Kendrick Lamar ft. SZA</div></h5>
+                        </li>
+                        <li class="songItem">
+                            <div class="img_play">
+                                <img src="images/tpne.jfif" alt="emptyoutyourpocket">
+                                <i class="bi playListPlay bi-play-fill" id="13"></i>
+                            </div>
+                            <h5>Empty Out Your Pocket<br><div class="subtitle">Juice WRLD</div></h5>
+                        </li>
+                        <li class="songItem">
+                            <div class="img_play">
+                                <img src="images/tpne.jfif" alt="misfit">
+                                <i class="bi playListPlay bi-play-fill" id="14"></i>
+                            </div>
+                            <h5>Misfit<br><div class="subtitle">Juice WRLD</div></h5>
+                        </li>
+                        <li class="songItem">
+                            <div class="img_play">
+                                <img src="images/wedonttrustyou.jfif" alt="wedonttrustyou">
+                                <i class="bi playListPlay bi-play-fill" id="15"></i>
+                            </div>
+                            <h5>Like That<br><div class="subtitle">Future & Metro Boomin ft. Kendrick Lamar</div></h5>
+                        </li>
+                        <li class="songItem">
+                            <div class="img_play">
+                                <img src="images/kdot.jpg" alt="waccedoutmurals">
+                                <i class="bi playListPlay bi-play-fill" id="16"></i>
+                            </div>
+                            <h5>Wacced Out Murals<br><div class="subtitle">Kendrick Lamar</div></h5>
+                        </li>
+                        <li class="songItem">
+                            <div class="img_play">
+                                <img src="images/juicewrld.jfif" alt="righteous">
+                                <i class="bi playListPlay bi-play-fill" id="17"></i>
+                            </div>
+                            <h5>Righteous<br><div class="subtitle">Juice WRLD</div></h5>
+                        </li>
+                    </div>
+                </div>
+                <div class="popular_artists">
+                    <div class="h4">
+                        <h4>Popular Artists</h4>
+                        <div class="btn_s">
+                            <i id="left_scrolls" class="bi bi-arrow-left-short"></i>
+                            <i id="right_scrolls" class="bi bi-arrow-right-short"></i>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <li>
+                            <img src="images/WhatsApp Image 2025-02-10 at 19.49.19.jpeg" alt="Akhdaan Never Broke Again" title="Akhdaan Never Broke Again">
+                        </li>
+                        <li>
+                            <img src="images/kendrick lamar.jpg" alt="Kendrick Lamar" title="Kendrick Lamar">
+                        </li>
+                        <li>
+                            <img src="images/tyler.jfif" alt="Tyler, The Creator" title="Tyler, The Creator">
+                        </li>
+                        <li>
+                            <img src="images/theweeknd.jfif" alt="The Weeknd" title="The Weeknd">
+                        </li>
+                        <li>
+                            <img src="images/juicewrld.jfif" alt="Juice WRLD" title="Juice WRLD">
+                        </li>
+                        <li>
+                            <img src="images/future.jpg" alt="Future" title="Future">
+                        </li>
+                        <li>
+                            <img src="images/xxxtentacion.jfif" alt="XXXTENTACION" title="XXXTENTACION">
+                        </li>
+                        <li>
+                            <img src="images/lil uzi.jfif" alt="Lil Uzi Vert" title="Lil Uzi Vert">
+                        </li>
+                        <li>
+                            <img src="images/postmalone.jfif" alt="Post Malone" title="Post Malone">
+                        </li>
+                    </div>
+                </div>
+            </div>
+            <div class="master_play">
+                <div class="wave">
+                    <div class="wave1"></div>
+                    <div class="wave1"></div>
+                    <div class="wave1"></div>
+                </div>
+                <img id="poster_master_play" src="images/kdot.jpg" alt="GNX">
+                <h5>Luther <br> <div class="subtitle">Kendrick Lamar ft. SZA</div></h5>
+                <div class="icon">
+                    <i class="bi bi-skip-start-fill" id="back"></i>
+                    <i class="bi bi-play-fill" id="masterPlay"></i>
+                    <i class="bi bi-skip-end-fill" id="next"></i>
+                </div>
+                <span id="currentStart">0:00</span>
+                <div class="bar">
+                    <input type="range" id="seek" min="0" value="0" max="100">
+                    <div class="bar2" id="bar2"></div>
+                    <div class="dot"></div> 
+                </div>
+                <span id="currentEnd">0:00</span>
+                <div class="vol">
+                    <i class="bi bi-volume-down-fill"></i>
+                    <input type="range" id="volume" min="0" value="30" max="100">
+
+                    <div class="vol_bar"></div>
+                    <div class="dot" id="vol_dot"></div> 
+                </div>
+            </div>
+        </header>
+        <script src="script.js"></script>
+    </body>
+</html>
